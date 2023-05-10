@@ -1,0 +1,18 @@
+html {
+    width: max-content;
+    height: max-content;
+}
+
+body {
+    margin: 20px
+}
+
+.config-title {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.confirm-button {
+    margin-top: 18px;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "up and down marker",
+  "description": "to mark the increasing date in green and the decreasing one in red",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "/popup/config.html"
+  },
+  "icons": {
+    "16": "upNdown.jpg",
+    "32": "upNdown.jpg",
+    "48": "upNdown.jpg"
+  },
+  "content_scripts": [
+    {
+        "matches":["<all_urls>"],
+        "js":["script/highlight.js", "test.js"],
+        "run_at":"document_start"
+    }
+  ]
+}
